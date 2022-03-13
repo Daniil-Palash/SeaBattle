@@ -11,7 +11,7 @@ int main() {
 	fleet[9].PutShip(4, 4, MainField);
 	MainField.PrintField();
 	std::cout << "           \n";	
-	MainField.StrikeCage(0, 0); //strike chosen coordinates
+	MainField.StrikeCage(0, 0); 
 	MainField.StrikeCage(4, 2);
 	MainField.StrikeCage(0, 0);
 	MainField.PrintField();	
